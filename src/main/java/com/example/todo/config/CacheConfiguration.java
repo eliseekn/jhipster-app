@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.example.todo.domain.User.class.getName());
             createCache(cm, com.example.todo.domain.Authority.class.getName());
             createCache(cm, com.example.todo.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.example.todo.domain.Items.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
