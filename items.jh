@@ -1,0 +1,5 @@
+entity Items {
+	description String required
+}
+
+paginate Items with infinite-scroll
